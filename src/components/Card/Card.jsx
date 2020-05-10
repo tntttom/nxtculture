@@ -1,11 +1,11 @@
 import React from "react";
 
-import styles from "./Header.module.css";
+import styles from "./Card.module.css";
 
 const Card = () => {
   return (
     <div className={styles.card}>
-      <p className={styles.cardText}>I am one card</p>
+      <img className={styles.cardImage} src="" />
     </div>
   );
 };

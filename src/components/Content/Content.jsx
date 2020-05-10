@@ -2,13 +2,14 @@ import React from "react";
 
 import styles from "./Content.module.css";
 
-import { CardGroup } from "../components";
+import { CardGroup } from "..";
 
 const Header = () => {
   return (
     <div className={styles.body}>
       Content
-      <CardGroup />
+      {/* <CardGroup /> */}
+      <p>Who we are</p>
     </div>
   );
 };

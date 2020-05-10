@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./CardGroup.module.css";
 
-import { Card } from "../components";
+import { Card } from "..";
 
 const CardGroup = () => {
   return (

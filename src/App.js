@@ -7,7 +7,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Content />
+
+      <div className="Content">
+        <p className="textColor">This is where the cards will go</p>
+      </div>
     </div>
   );
 }

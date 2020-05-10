@@ -1,23 +1,73 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .logo {
   color: white;
 }
 
 .navBar {
-  background-color: black;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 5% 0 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  padding: 1em;
+  width: 100%;
+  background-color: black;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: grid;
+    align-items: center;
+    grid-template-columns:
+      1fr
+      1fr
+      1fr;
+  }
+
+  .logo,
+  .navBarGroup {
+    grid-row: 1;
+  }
+
+  .logo {
+    grid-column: 1;
+
+    justify-self: start;
+    margin-left: 3rem;
+  }
+
+  .navBarGroup {
+    grid-column: 2;
+  }
 }
 
 .navBarGroup {
-  color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 3%;
+  justify-content: space-evenly;
+  list-style: none;
+  text-transform: uppercase;
 }
 
 .navButton {
-  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navButton::after {
+  content: "";
+  display: block;
+  border-bottom: solid 1px #ffffff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navButton:hover::after {
+  transform: scaleX(1);
 }
