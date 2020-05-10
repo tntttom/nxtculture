@@ -14,6 +14,11 @@ const Header = () => {
           <div className={styles.navButton}>About Us</div>
           <div className={styles.navButton}>Contact</div>
         </div>
+
+        <div className={styles.navIconGroup}>
+          <div className={styles.navButton}>Lookbook</div>
+          <div className={styles.navButton}>Shop</div>
+        </div>
       </header>
     </div>
   );

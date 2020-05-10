@@ -18,6 +18,15 @@ header {
   background-color: black;
 }
 
+@media (max-width: 1024px) {
+  .navBarGroup {
+    display: none;
+  }
+  .navIconGroup {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   header {
     display: grid;
@@ -29,7 +38,8 @@ header {
   }
 
   .logo,
-  .navBarGroup {
+  .navBarGroup,
+  .navIconGroup {
     grid-row: 1;
   }
 
@@ -43,19 +53,24 @@ header {
   .navBarGroup {
     grid-column: 2;
   }
-}
 
-.navBarGroup {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  text-transform: uppercase;
+  .navBarGroup {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  .navIconGroup {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-transform: uppercase;
+  }
 }
 
 .navButton {
   text-decoration: none;
   color: white;
-
   display: inline-block;
   cursor: pointer;
 }
