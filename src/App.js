@@ -3,20 +3,19 @@ import React from "react";
 import "./App.css";
 import { Header, Content, Footer } from "./components";
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <Router>
+      <div className="App">
+        <Header />
 
-      <div className="Content">
-        <p className="textColor">F/W 2020</p>
-        <Content />
+        <div>
+          <Footer />
+        </div>
       </div>
-
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </Router>
   );
 }
 
