@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./Header.module.css";
+import hamburgerIcon from "../assets/icons/hamburger_icon.svg";
 
 const Header = () => {
   return (
@@ -16,8 +17,8 @@ const Header = () => {
         </div>
 
         <div className={styles.navIconGroup}>
-          <div className={styles.navButton}>Lookbook</div>
-          <div className={styles.navButton}>Shop</div>
+          {/* <div className={styles.navButton}>Lookbook</div>
+          <div className={styles.navButton}>Shop</div> */}
         </div>
       </header>
     </div>

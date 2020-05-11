@@ -19,6 +19,10 @@ header {
 }
 
 @media (max-width: 1024px) {
+  header {
+    display: grid;
+    align-items: center;
+  }
   .navBarGroup {
     display: none;
   }
@@ -35,6 +39,9 @@ header {
       1fr
       1fr
       1fr;
+
+    padding-top: 4rem;
+    padding-bottom: 1rem;
   }
 
   .logo,

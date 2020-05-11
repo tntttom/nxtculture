@@ -7,9 +7,7 @@ import { CardGroup } from "..";
 const Header = () => {
   return (
     <div className={styles.body}>
-      Content
-      {/* <CardGroup /> */}
-      <p>Who we are</p>
+      <CardGroup />
     </div>
   );
 };

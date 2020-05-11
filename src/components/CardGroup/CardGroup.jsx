@@ -2,14 +2,20 @@ import React from "react";
 
 import styles from "./CardGroup.module.css";
 
+import imageList from "../../Constants";
+
 import { Card } from "..";
 
 const CardGroup = () => {
+  const getImageCards = (imageObj) => {
+    const { imageSource, id } = imageObj;
+
+    return <Card {...imageObj} id={id} />;
+  };
+
   return (
     <div className={styles.group}>
-      <Card />
-      <Card />
-      <Card />
+      {imageList.map((imageObj) => getImageCards(imageObj))}
     </div>
   );
 };

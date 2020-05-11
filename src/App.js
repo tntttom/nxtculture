@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { Header, Content } from "./components";
+import { Header, Content, Footer } from "./components";
 
 function App() {
   return (
@@ -9,7 +9,12 @@ function App() {
       <Header />
 
       <div className="Content">
-        <p className="textColor">This is where the cards will go</p>
+        <p className="textColor">F/W 2020</p>
+        <Content />
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </div>
   );

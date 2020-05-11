@@ -1,0 +1,38 @@
+@media (min-width: 1024px) {
+  .footer {
+    display: grid;
+    padding-top: 3rem;
+
+    grid-template-columns:
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr
+      1fr;
+    justify-items: start;
+  }
+  h3 {
+    color: white;
+  }
+
+  h6 {
+    color: lightgray;
+  }
+
+  .footer_lookbook {
+    flex-direction: column;
+
+    grid-column: 3;
+  }
+
+  .footer_nxt {
+    flex-direction: column;
+
+    grid-column: 4;
+  }
+}

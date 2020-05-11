@@ -1,13 +1,13 @@
 .card {
   background-color: white;
   margin: 10px;
-  width: 7vw;
+  width: 5vw;
   height: 60vh;
-  transition: width 0.5s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 
 .card:hover {
-  transition: width 0.5s ease-in-out;
+  transition: width 0.3s ease-in-out;
   width: 15vw;
 }
 
