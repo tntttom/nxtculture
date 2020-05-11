@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Header.module.css";
-import hamburgerIcon from "../assets/icons/hamburger_icon.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,10 +10,18 @@ const Header = () => {
         <h1 className={styles.logo}>NXT</h1>
 
         <div className={styles.navBarGroup}>
-          <div className={styles.navButton}>Lookbook</div>
-          <div className={styles.navButton}>Shop</div>
-          <div className={styles.navButton}>About Us</div>
-          <div className={styles.navButton}>Contact</div>
+          <Link to="/">
+            <div className={styles.navButton}>Lookbook</div>
+          </Link>
+          <Link to="/shop">
+            <div className={styles.navButton}>Shop</div>
+          </Link>
+          <Link to="/about">
+            <div className={styles.navButton}>About Us</div>
+          </Link>
+          <Link to="/contact">
+            <div className={styles.navButton}>Contact</div>
+          </Link>
         </div>
 
         <div className={styles.navIconGroup}>
