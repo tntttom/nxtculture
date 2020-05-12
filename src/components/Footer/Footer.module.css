@@ -1,8 +1,8 @@
 @media (min-width: 1024px) {
   .footer {
     display: grid;
-    padding-top: 3rem;
-
+    padding-top: 4rem;
+    padding-bottom: 5rem;
     grid-template-columns:
       1fr
       1fr
@@ -34,5 +34,64 @@
     flex-direction: column;
 
     grid-column: 4;
+  }
+
+  .footer_findus {
+    flex-direction: column;
+    grid-column: 5;
+  }
+  .footer_form {
+    flex-direction: row;
+    grid-column: 7;
+    justify-content: space-between;
+  }
+
+  .inputField {
+    border-radius: 10%;
+    grid-column: 8;
+  }
+}
+
+.footer {
+  border-top: 0.025rem solid lightgray;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    justify-content: center;
+  }
+  h3 {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    color: lightgray;
+    font-size: 0.8rem;
+  }
+
+  .footer_lookbook {
+    flex-direction: column;
+  }
+
+  .footer_nxt {
+    flex-direction: column;
+  }
+
+  .footer_findus {
+    flex-direction: column;
+  }
+  .footer_form {
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+
+  .inputField {
+    border-radius: 10%;
   }
 }
