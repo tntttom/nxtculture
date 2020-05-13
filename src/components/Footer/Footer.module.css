@@ -17,11 +17,11 @@
     justify-items: start;
   }
   h3 {
-    color: white;
+    color: black;
   }
 
   h6 {
-    color: lightgray;
+    color: darkgray;
   }
 
   .footer_lookbook {
@@ -65,12 +65,12 @@
     justify-content: center;
   }
   h3 {
-    color: white;
+    color: black;
     font-size: 1.5rem;
   }
 
   h6 {
-    color: lightgray;
+    color: darkgray;
     font-size: 0.8rem;
   }
 

@@ -1,9 +1,13 @@
 import React from "react";
 
+import styles from "./Shop.module.css";
+
+import { ShopContent } from "../../../components";
+
 const Shop = () => {
   return (
     <div>
-      <h1>Shop page</h1>
+      <ShopContent />
     </div>
   );
 };
