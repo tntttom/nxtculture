@@ -1,0 +1,9 @@
+.featuredContent {
+  display: flex;
+  justify-content: center;
+}
+
+.headerText {
+  color: black;
+  font-size: 3rem;
+}

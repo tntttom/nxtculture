@@ -10,5 +10,8 @@ export { default as About } from ".//Screens/About/About";
 export { default as Shop } from ".//Screens/Shop/Shop";
 export { default as ShopContent } from "../components/Screens/Shop/ShopContent";
 export { default as ShopCard } from "../components/Screens/Shop/ShopCard";
+export { default as FeaturedContent } from "../components/Screens/Shop/Featured Collection/FeaturedContent";
+export { default as Collection } from "../components/Screens/Shop/Collections/Collection";
+export { default as CollectionGroup } from "../components/Screens/Shop/Collections/CollectionGroup";
 
 export { default as Contact } from ".//Screens/Contact/Contact";

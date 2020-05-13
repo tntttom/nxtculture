@@ -2,14 +2,17 @@ import React from "react";
 
 import styles from "./ShopContent.module.css";
 
-import { ShopCard } from "../../../components";
+import {
+  ShopCard,
+  FeaturedContent,
+  CollectionGroup,
+} from "../../../components";
 
 const ShopContent = () => {
   return (
     <div>
-      <ShopCard />
-      <ShopCard />
-      <ShopCard />
+      <FeaturedContent />
+      <CollectionGroup />
     </div>
   );
 };
