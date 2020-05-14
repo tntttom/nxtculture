@@ -2,19 +2,19 @@
 }
 
 h1 {
-  color: white;
+  color: black;
   padding-bottom: 2rem;
 }
 
 .aboutLogo {
-  color: white;
-  padding: 5rem;
+  color: black;
+  padding-bottom: 5rem;
 }
 
 .aboutContent {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .description {
-  color: white;
+  color: black;
 }

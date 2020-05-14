@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "./Collection.module.css";
 
+import { motion } from "framer";
+
 const Collection = () => {
   return (
     <div className={styles.collectionContainer}>

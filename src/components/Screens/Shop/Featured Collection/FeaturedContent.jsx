@@ -2,17 +2,24 @@ import React from "react";
 
 import styles from "./FeaturedContent.module.css";
 
+import { motion } from "framer";
+
 const FeaturedContent = () => {
   return (
-    <div className={styles.featuredContent}>
+    <motion.div
+      className={styles.featuredContent}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.2 }}
+    >
       <div className={styles.imgComponents}>
         <h1 className={styles.headerText}> Featured Collection</h1>
 
-        <button className={styles.featureBtn} title="Shop Collection">
+        <motion.button className={styles.featureBtn}>
           Shop Collection
-        </button>
+        </motion.button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
