@@ -4,9 +4,11 @@ import styles from "./Collection.module.css";
 
 const Collection = () => {
   return (
-    <div>
-      <img src="" />
-      <h1>Collection</h1>
+    <div className={styles.collectionContainer}>
+      <div className={styles.collectionImgContainer}>
+        <h1 className={styles.headerText}>Collection</h1>
+        <button className={styles.collectionBtn}>View Lookbook</button>
+      </div>
     </div>
   );
 };

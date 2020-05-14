@@ -1,1 +1,44 @@
+.collectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  height: 30vh;
+  margin-top: 3%;
+}
+
+.collectionImgContainer {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.headerText {
+  color: black;
+}
+
+.collectionBtn {
+  min-width: 10%;
+  min-height: 3%;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  color: white;
+  border-radius: 4rem;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.collectionBtn:focus {
+  outline: none;
+}
+.collectionBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  .collectionContainer {
+    margin-top: 2%;
+  }
+}
