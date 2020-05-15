@@ -7,7 +7,7 @@ import { Content } from "../../../components";
 const Home = () => {
   return (
     <div className={styles.Content}>
-      <p className={styles.textColor}>SPRING 2020</p>
+      <h1 className={styles.textColor}>SPRING 2020</h1>
       <Content />
     </div>
   );

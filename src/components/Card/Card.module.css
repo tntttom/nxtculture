@@ -2,6 +2,7 @@
   background-color: white;
   margin: 10px;
   width: 5vw;
+
   height: 60vh;
   transition: width 0.3s ease-in-out;
 }

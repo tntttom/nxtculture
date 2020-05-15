@@ -7,7 +7,7 @@ import { motion } from "framer";
 const About = () => {
   return (
     <motion.div
-      className={styles.about}
+      className={styles.aboutContainer}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
