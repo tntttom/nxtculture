@@ -30,8 +30,12 @@ const Footer = (props) => {
         <form className={styles.footerform}>
           <h3>Join our newsletter:</h3>
 
-          <input className={styles.inputField} type="text" value="" />
-          <input className={styles.submitBtn} type="submit" value="Submit" />
+          <input
+            className={styles.inputField}
+            type="text"
+            value=""
+            placeholder="Email"
+          />
         </form>
       </div>
     </div>

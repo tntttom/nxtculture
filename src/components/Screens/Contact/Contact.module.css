@@ -2,6 +2,23 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: beige;
+
   height: 80vh;
+}
+
+.textContainer {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.socialMediaLinks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+
+  background-color: red;
+}
+
+.socialLink {
 }
