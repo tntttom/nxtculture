@@ -1,12 +1,13 @@
 .shopListContainer {
-  height: 70vh;
+  height: auto;
   margin-top: 4rem;
   margin-left: 5rem;
   margin-right: 5rem;
-  background-color: blue;
+  padding-bottom: 10rem;
 }
 
 .shopCardContainer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }

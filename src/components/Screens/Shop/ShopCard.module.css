@@ -1,0 +1,29 @@
+.cardContainer {
+  margin-bottom: 2em;
+  flex: 0 1 30%;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+.productTitle {
+  font-size: 1.5rem;
+}
+
+.collectionTitle {
+  font-size: 1rem;
+  color: darkgray;
+}
+
+.price {
+  font-size: 1rem;
+  color: gray;
+}
