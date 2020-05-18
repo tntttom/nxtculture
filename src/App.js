@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 import { Header, Content, Footer } from "./components";
-import { Home, About, Contact, Shop } from "./components";
+import { Home, About, Contact, Shop, ShopList } from "./components";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -14,8 +14,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/shop" component={Shop} />
+          <Route path="/shop" exact component={Shop} />
           <Route path="/contact" component={Contact} />
+          <Route path="/shop/list" component={ShopList} />
         </Switch>
 
         <div>

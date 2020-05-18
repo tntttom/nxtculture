@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./FeaturedContent.module.css";
 
 import { motion } from "framer";
+import { Link } from "react-router-dom";
 
 const FeaturedContent = () => {
   return (
@@ -15,9 +16,11 @@ const FeaturedContent = () => {
       <div className={styles.imgComponents}>
         <h1 className={styles.headerText}> Featured Collection</h1>
 
-        <motion.button className={styles.featureBtn}>
-          Shop Collection
-        </motion.button>
+        <Link to="/shop/list">
+          <motion.button className={styles.featureBtn}>
+            Shop Collection
+          </motion.button>
+        </Link>
       </div>
     </motion.div>
   );

@@ -13,5 +13,6 @@ export { default as ShopCard } from "../components/Screens/Shop/ShopCard";
 export { default as FeaturedContent } from "../components/Screens/Shop/Featured Collection/FeaturedContent";
 export { default as Collection } from "../components/Screens/Shop/Collections/Collection";
 export { default as CollectionGroup } from "../components/Screens/Shop/Collections/CollectionGroup";
+export { default as ShopList } from "../components/Screens/Shop/ShopList";
 
 export { default as Contact } from ".//Screens/Contact/Contact";
