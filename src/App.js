@@ -1,12 +1,28 @@
 import React from "react";
 
 import "./App.css";
-import { Header, Content, Footer } from "./components";
+import { Header, Footer } from "./components";
 import { Home, About, Contact, Shop, ShopList } from "./components";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Axios from "axios";
+
 function App() {
+  // Axios({
+  //   method: "GET",
+  //   url: "http://localhost:5000/",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  // }).then((res) => {
+  //   console.log(res.data.message);
+  // });
+
+  Axios.get("http://localhost:5000/").then((res) => {
+    console.log(res.data.message);
+  });
+
   return (
     <Router>
       <div className="App">

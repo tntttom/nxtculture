@@ -10,7 +10,7 @@ const CardGroup = () => {
   const getImageCards = (imageObj) => {
     const { imageSource, id } = imageObj;
 
-    return <Card {...imageObj} id={id} />;
+    return <Card {...imageObj} key={id} />;
   };
 
   return (
