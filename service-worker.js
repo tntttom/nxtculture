@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nxtculture/precache-manifest.1a3e2672d0707a0ab409b9574af8fcd0.js"
+  "/nxtculture/precache-manifest.4e4a1011321a85791cd6218aafad3557.js"
 );
 
 self.addEventListener('message', (event) => {
